@@ -1,0 +1,21 @@
+[project]
+name = "e-commerce-sales-data-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "syedt-98", email = "tahahussaini98.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "pandas>=3.0.6",
+]
+
+[project.scripts]
+e-commerce-sales-data-analysis = "e_commerce_sales_data_analysis:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
